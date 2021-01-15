@@ -6,11 +6,6 @@ int main(){
 	int array[] = {4,2,0,3,4,0,4,1,2,1,3};
 	int n = sizeof(array)/sizeof(array[0]);
 
-	// 'sizeof' gives the size of total array i.e. size of each character * no. of characters
-	// so to get no. of characters
-	// we divide the sizeof(array) with the size of any one character of the array
-	// here it is array[0]
-
 	cout << "Array before sorting: [ 4 2 0 3 4 0 4 1 2 1 3 ]" << endl;
 
 	sort(array, array+n);
